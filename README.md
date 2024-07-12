@@ -9,12 +9,12 @@
    2. To start bot use `python main.py`.
 
 ### Options 📧
- - In `data/config.py` put `REGISTER_ACCOUNT_ONLY = True`
+ - In `data/config.py` put `REGISTER_ACCOUNT_ONLY = False`
  - in `data/config.py`:
-   - `APPROVE_EMAIL = True` approve email (NEEDED IMAP AND ACCESS TO EMAIL)
-   - `CONNECT_WALLET = True` connect wallet (put private keys in wallets.txt)
-   - `SEND_WALLET_APPROVE_LINK_TO_EMAIL = True`  # send approve link to email
-   - `APPROVE_WALLET_ON_EMAIL = True`  # get approve link from email (NEEDED IMAP AND ACCESS TO EMAIL)
+   - `APPROVE_EMAIL = False` approve email (NEEDED IMAP AND ACCESS TO EMAIL)
+   - `CONNECT_WALLET = False` connect wallet (put private keys in wallets.txt)
+   - `SEND_WALLET_APPROVE_LINK_TO_EMAIL = False`  # send approve link to email
+   - `APPROVE_WALLET_ON_EMAIL = False`  # get approve link from email (NEEDED IMAP AND ACCESS TO EMAIL)
  - Provide emails and passwords and imap password (access to email) in format email:password:imap_password!
  - Need IMAP access to email
  -  `SINGLE_IMAP_ACCOUNT = False `  # if you have possibility to forward all approve mails to single IMAP address. Usage: change False to "name@domain.com:password" of your main IMAP address
