@@ -1,4 +1,4 @@
-# Grass Auto Farm 🔹
+# Grass Auto Farm 
 
 ### What is bot for?
    - Farm Points
